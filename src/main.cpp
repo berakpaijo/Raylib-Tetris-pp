@@ -34,7 +34,7 @@ int main()
     if (EventTriggered(0.230)) game.MoveBlockDown();
 
     BeginDrawing();
-    ClearBackground(Suface0);
+    ClearBackground(frappe.FrappeBackground);
 
     DrawTextEx(font, "Score", {570,15}, 38, 2, WHITE);
     DrawTextEx(font, "Next", {575,175}, 38, 2, WHITE);
@@ -45,9 +45,9 @@ int main()
     Vector2 textSize = MeasureTextEx(font, scoreText, 38, 2);
 
     DrawTextEx(font, "Game by\nLordPaijo\n\nOn\ngithub.com/ \nberakpaijo", {570,screenHeight-200}, 28, 2, WHITE);
-    DrawRectangleRounded({575, 65, 150, 60}, 0.3, 6, Surface0);
+    DrawRectangleRounded({575, 65, 150, 60}, 0.3, 6, frappe.FrappeSurface0);
     DrawTextEx(font, scoreText, {570 + (170 - textSize.x)/2,75}, 38, 2, WHITE);
-    DrawRectangleRounded({570, 225, 170, 180}, 0.3, 6, Surface0);
+    DrawRectangleRounded({570, 225, 170, 180}, 0.3, 6, frappe.FrappeSurface1);
     
     game.Draw();
 
