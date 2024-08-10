@@ -59,13 +59,16 @@ class mytheme{
 
 Let's break down the code.
 
-To start with, you need to make a header file for your theme. For example, `mytheme.h`. The header file must be made inside `/themes/`. Inside the header file, we want to make a class so variable calling won't crash when we call it inside `colors.h` in `/include/colors.h`. So then we made a class and named it `mytheme`. 
-
-Here, is an example of the game after you changed the theme
-![](https://github.com/berakpaijo/Raylib-Tetris-pp/blob/main/thumbnails/Screenshot%20from%202024-08-10%2013-51-13.png)
+To start with, you need to make a header file for your theme. For example, `mytheme.h`. The header file must be made inside `/themes/`. 
+Inside the header file, we want to make a class so variable calling won't crash when we call it inside `colors.h` in `/include/colors.h`. 
+So then we made a class and named it `mytheme`. 
 
 In the class my theme, we want to have our colors as public attributes. So then we declare all our colors under the scope of `public`. To declare the colors, we need to include raylib. And so we did at the second line of our header file.
 
 The data type `Color` is a data type from raylib that is used to declare a color variable. The value of a color variable must be an RGBA value. Meaning its value is a color. We wanted our theme to have various colors, so we declared several color variables. Now, we have every color that we want for our theme. Everything is all set.
 
 Now, you can apply it to the game by including your theme header file in `/include/colors.h`. And voila, successfully changed the game theme
+
+
+Here, is an example of the game after you changed the theme
+![](https://github.com/berakpaijo/Raylib-Tetris-pp/blob/main/thumbnails/Screenshot%20from%202024-08-10%2013-51-13.png)
