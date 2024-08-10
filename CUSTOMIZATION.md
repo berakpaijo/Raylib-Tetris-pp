@@ -41,7 +41,9 @@ The currently available themes are:
 2. catppuccin/macchiato
 3. catppuccin/mocha
 4. catppuccin/latte
+
 Sources are from [catppuccin](https://github.com/catppuccin/catppuccin).
+
 Header files are in [`/themes/catppuccin/`](https://github.com/berakpaijo/Raylib-Tetris-pp/tree/main/themes/catppuccin)
 
 ### applying themes
