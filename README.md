@@ -1,7 +1,7 @@
 # Tetris++ v1.1.0
 A full repository about my game, Tetris++.
 
-![](https://github.com/berakpaijo/Raylib-Tetris-pp/blob/main/Screenshot%20from%202024-08-09%2023-19-03.png)
+![](https://github.com/berakpaijo/Raylib-Tetris-pp/blob/main/thumbnails/Screenshot%20from%202024-08-10%2013-53-48.png)
 
 This game is fully made using C++ and [Raylib](https://github.com/raysan5/raylib) that followed this [tutorial](https://youtu.be/wVYKG_ch4yM?si=1x-DJIYgIAAsy5pF) by [Programming With Nick](https://www.youtube.com/@programmingwithnick) on YouTube. I preferred him as my tutor for this project since he has the best explanations and tutorials among other YouTubers that I also followed a little. Since this project is a project that I followed from a tutorial, I won't be adding any licenses or funding towards me. This a full open project that might inspire you to go along and do the same thing as I did!
 
