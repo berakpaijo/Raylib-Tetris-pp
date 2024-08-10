@@ -1,4 +1,4 @@
-# Tetris++ by LordPaijo
+# Tetris++ v1.1.0
 A full repository about my game, Tetris++.
 
 ![](https://github.com/berakpaijo/Raylib-Tetris-pp/blob/main/Screenshot%20from%202024-08-09%2023-19-03.png)
@@ -8,7 +8,7 @@ This game is fully made using C++ and [Raylib](https://github.com/raysan5/raylib
 The current state is only available on [Linux](https://github.com/torvalds/linux)
 
 ## Raylib
-Before compiling, you need to install [Raylib](https://github.com/raysan5/raylib) since it was the main library that I use to make this game.
+Before compiling, you need to install [Raylib](https://github.com/raysan5/raylib) since it was the main library that I used to make this game.
 
 A full installation guide is available [here](https://github.com/raysan5/raylib?tab=readme-ov-file#),
 
@@ -49,6 +49,7 @@ cd ..
 ```
 
 If issues were found such as sound not playing, you can recompile the `main.cpp` in `src` and execute it without changing your directory back to `Tetris++/` and execute the compiled file.
+
 ```bash
 cd src
 g++ main.cpp -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 -o ../compiled/Tetris++   # compiling the `main.cpp` to `/compiled/`
@@ -56,3 +57,16 @@ g++ main.cpp -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 -o ../compiled/Tetris++
 ```
 
 And there you have it, enjoy and have fun!
+
+# Contributions
+Before contributing to this project, you may read the [`CONTRIBUTION.md`](https://github.com/berakpaijo/Raylib-Tetris-pp/blob/main/CONTRIBUTION.md) as rules and guidelines were written there.
+
+# Version 1.1.0
+Tetris++ now is officially updated to version 1.1.0
+
+## What's new?
+In this update, it added customizations to the game. This means now you can easily customize the game through the source code.
+
+Things that you can customize are the font (dir `/font/`), sounds (dir `/sounds/`), and theme (dir `/themes/`).
+
+For further documentation, you can read the [`CUSTOMIZATION.md`](https://github.com/berakpaijo/Raylib-Tetris-pp/blob/main/CUSTOMIZATION.md)
