@@ -42,11 +42,11 @@ To apply your desired themes, you can include them inside the colors header file
 Then, at the line of the definition of a vector array function `GetAllColors()` you need to make the return value to an array of list of your themes color pallet.
 
 ### making your own themes
-To make your own theme, simply make a `theme.h` file inside `/themes/`. Inside the `theme.h` file, you need to make a class that has the public attributes of your colors. 
+To make your own theme, simply make a header file consisting of your color pallet file inside `/themes/`. Inside your header file, you need to make a class that has the public attributes of your colors. 
 
 For example:
 ```code
-/* theme.h */
+/* -_- */
 #pragma once
 #include "../../include/raylib.h"
 
@@ -61,8 +61,27 @@ class mytheme{
 ```
 
 
-Then include it in the `/include/colors.h` file.
+Then include it in the `/themes/theme.h` file like this
 
+```code
+#pragma once
+#include "../include/raylib.h"
+#include "your theme.h"
+
+your_class your_class_caller;
+
+// Color palette
+extern const Color GridC = <your_class_caller.your_color>;
+extern const Color LBlockC = <your_class_caller.your_color>;
+extern const Color JBlockC = <your_class_caller.your_color>;
+extern const Color IBlockC = <your_class_caller.your_color>;
+extern const Color OBlockC = <your_class_caller.your_color>;
+extern const Color SBlockC = <your_class_caller.your_color>;
+extern const Color TBlockC = <your_class_caller.your_color>;
+extern const Color ZBlockC = <your_class_caller.your_color>;
+extern const Color BaseC = <your_class_caller.your_color>;
+```
+then you're ready to go. `theme.h` is already included inside `/include/colors.h` so you don't have to worry about re-implementing your colors to the source code.
 
 Here, is an example of the game after you changed the theme
 ![](https://github.com/berakpaijo/Raylib-Tetris-pp/blob/main/thumbnails/Screenshot%20from%202024-08-10%2013-51-13.png)
