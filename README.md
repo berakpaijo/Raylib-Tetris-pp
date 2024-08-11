@@ -69,6 +69,8 @@ And, the patch version is: 0.1.1
 ## What's new?
 In this update, it added customizations to the game. This means you can now easily customize the game using the source code.
 
+In this new patch, you can easily configure the theme without entering the inner source code (such as the ones inside `/src/` and `/include/`).
+
 Things that you can customize are the font (dir `/font/`), sounds (dir `/sounds/`), and theme (dir `/themes/`).
 
 For further documentation, you can read the [`CUSTOMIZATION.md`](https://github.com/berakpaijo/Raylib-Tetris-pp/blob/main/CUSTOMIZATION.md)
