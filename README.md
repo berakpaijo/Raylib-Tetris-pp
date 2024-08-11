@@ -1,4 +1,4 @@
-# Tetris++ v1.1.0
+# Tetris++ v1.1.1
 A full repository about my game, Tetris++.
 
 ![](https://github.com/berakpaijo/Raylib-Tetris-pp/blob/main/thumbnails/Screenshot%20from%202024-08-10%2013-53-48.png)
@@ -61,11 +61,13 @@ And there you have it, enjoy and have fun!
 # Contributions
 Before contributing to this project, you may read the [`CONTRIBUTION.md`](https://github.com/berakpaijo/Raylib-Tetris-pp/blob/main/CONTRIBUTION.md) as rules and guidelines were written there.
 
-# Version 1.1.0
-Tetris++ now is officially updated to version 1.1.0
+# Version 1.1.1
+Tetris++ is currently at version: 1.1.1
+
+And, the patch version is: 0.1.1
 
 ## What's new?
-In this update, it added customizations to the game. This means now you can easily customize the game through the source code.
+In this update, it added customizations to the game. This means you can now easily customize the game using the source code.
 
 Things that you can customize are the font (dir `/font/`), sounds (dir `/sounds/`), and theme (dir `/themes/`).
 
