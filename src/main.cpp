@@ -34,7 +34,7 @@ int main()
     if (EventTriggered(0.230)) game.MoveBlockDown();
 
     BeginDrawing();
-    ClearBackground(frappe.FrappeBackground);
+    ClearBackground(BaseC);
 
     DrawTextEx(font, "Score", {570,15}, 38, 2, WHITE);
     DrawTextEx(font, "Next", {575,175}, 38, 2, WHITE);

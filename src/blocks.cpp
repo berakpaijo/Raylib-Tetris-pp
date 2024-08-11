@@ -1,6 +1,6 @@
 #include "block.cpp"
 #include "../include/position.h"
-
+//
 class LBlock : public Block{
   public:
   LBlock(){
